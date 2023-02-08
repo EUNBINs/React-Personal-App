@@ -1,0 +1,86 @@
+/* 작성form css */
+.Header-style {
+  background-color: #eee;
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.form-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+.add-input {
+  height: 40px;
+  width: 240px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 12px;
+}
+.add-button {
+  border: none;
+  border-radius: 10px;
+  background-color: #96C7ED;
+  width: 140px;
+  height: 40px;
+  color: #F4FFFF;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* 투두리스트 컨테이너 css */
+.todo-box {
+  width: 300px;
+  border: 2px solid #AECDFF;
+  border-radius: 10px;
+  padding: 12px 24px 24px 24px;
+}
+.button {
+  border: none;
+  width: 40%;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+}
+.button-set {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+  justify-content: space-around;
+}
+.delete-button {
+  border: 2px solid #FF9E9B;
+}
+.edit-button {
+  border: 2px solid #74D19D;
+}
+.list-container {
+  padding: 0 24px;
+}
+.list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.common-font {
+  font-family: "Hahmlet-Light";
+}
+
+
+/* 폰트 */
+@font-face {
+  font-family: "DoHyeon";
+  src: url(./font/DoHyeon-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Hahmlet-Light";
+  src: url(./font/Hahmlet-Regular.ttf);
+}
